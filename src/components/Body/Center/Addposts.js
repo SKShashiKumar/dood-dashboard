@@ -14,7 +14,7 @@ const Addposts = () => {
                 </div>
                 <div className="row mt-2">
                     <div className="col-12  ">
-                    <TextField id="filled-standard" value="Status: Feeling Blue" variant="standard" fullWidth focused="true"/>
+                    <TextField id="filled-standard" value="Status: Feeling Blue" variant="standard" fullWidth focused/>
                     </div>
                 </div>
                 <div className="row mt-3">
