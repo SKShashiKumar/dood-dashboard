@@ -11,7 +11,7 @@ import Ads from "./Right/Ads";
 import Bugs from "./Right/Bugs";
 const Dashboard = () => {
   return (
-    <div className="m-4 pl-6">
+    <div className=" m-4 pl-6">
       <div className="row">
         <div className="col-md-3 bg-cw">
             <Profile/>

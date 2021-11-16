@@ -2,13 +2,13 @@ import EditIcon from "@mui/icons-material/Edit";
 import HomeIcon from "@mui/icons-material/Home";
 import CakeIcon from "@mui/icons-material/Cake";
 import Typography from "@mui/material/Typography";
-import "./Profile.css";
+import "./left.css";
 const Profile = () => {
   return (
     <>
       <div className="container bg-light">
           <div className="row">
-              <div className="col-12">
+              <div className="col-12 mt-2">
                   <Typography variant="h5" align="center">
                       My Profile
                   </Typography>

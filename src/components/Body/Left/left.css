@@ -1,0 +1,22 @@
+.fl-nones{
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bordRound{
+    border-radius: 50%;
+}
+
+.bg-darkslate{
+    background-color: rgba(77,99,111,0.7);
+}
+
+.GrpHvr:hover{
+    background-color: rgb(218, 213, 213);
+    color: black;
+}
+
+.bg-light-darkslate{
+    background-color: rgb(218, 213, 213);
+}
