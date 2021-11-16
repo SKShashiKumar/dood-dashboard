@@ -4,8 +4,7 @@ import Button from '@mui/material/Button'
 import EditIcon from '@mui/icons-material/Edit'
 const Addposts = () => {
     return ( 
-        <>
-            <div className="container mt-3 mb-3">
+            <div className="container pt-3 pb-3 pl-2 pr-2 bg-light">
                 <div className="row">
                     <div className="col-12">
                         <Typography variant="body1" color="gray">
@@ -14,7 +13,7 @@ const Addposts = () => {
                     </div>
                 </div>
                 <div className="row mt-2">
-                    <div className="col-12">
+                    <div className="col-12  ">
                     <TextField id="filled-basic" value="Status: Feeling Blue" variant="filled" fullWidth />
                     </div>
                 </div>
@@ -24,7 +23,6 @@ const Addposts = () => {
                     </div>
                 </div>
             </div>
-        </>
      );
 }
  
