@@ -6,8 +6,10 @@ import Card from "@mui/material/Card"
 import "./left.css";
 const Profile = () => {
   return (
+    <div className="bg-light">
+      
     <Card>
-      <div className="container bg-light">
+      <div className="container">
           <div className="row">
               <div className="col-12 mt-2">
                   <Typography variant="h5" align="center">
@@ -59,6 +61,8 @@ const Profile = () => {
         </div>
       </div>
     </Card>
+    
+    </div>  
   );
 };
 
