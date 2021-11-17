@@ -1,8 +1,11 @@
+import { Card } from "@mui/material";
 import Button from "@mui/material/Button";
 
 const UpcomingEvents = () => {
     return ( 
-            <div className="container bg-light pt-3 pb-3 mb-3">
+        <div className="bg-warning">
+            <Card>
+            <div className="container pt-3 pb-3 mb-3">
             <div className="row">
                 <div className="col-md-12">
                     <h6 className="text-center">Upcoming Events</h6>
@@ -30,6 +33,8 @@ const UpcomingEvents = () => {
                         </Button>
                 </div>
             </div>
+        </div>
+        </Card>
         </div>
      );
 }

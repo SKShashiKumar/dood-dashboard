@@ -2,10 +2,11 @@ import EditIcon from "@mui/icons-material/Edit";
 import HomeIcon from "@mui/icons-material/Home";
 import CakeIcon from "@mui/icons-material/Cake";
 import Typography from "@mui/material/Typography";
+import Card from "@mui/material/Card"
 import "./left.css";
 const Profile = () => {
   return (
-    <>
+    <Card>
       <div className="container bg-light">
           <div className="row">
               <div className="col-12 mt-2">
@@ -57,7 +58,7 @@ const Profile = () => {
           </div>
         </div>
       </div>
-    </>
+    </Card>
   );
 };
 

@@ -2,6 +2,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import LikeIcon from "@mui/icons-material/ThumbUp";
 import Comment from "@mui/icons-material/Comment"
+import { Card } from "@mui/material";
 const Posts = () => {
   const datas = [{
     'imgName':'img/avatar2.png',
@@ -9,8 +10,9 @@ const Posts = () => {
   'userName':'John Doe'}
   ]
   return (
-      <>
-    <div className="container p-3 mt-3 bg-light">
+      <div className="bg-light mt-3">
+        <Card>
+    <div className="container p-3 ">
       <div className="row">
         <div className="col-md-3">
           <div className="row">
@@ -71,8 +73,11 @@ const Posts = () => {
         </div>
       </div>
     </div>
+    </Card>
 
-    <div className="container p-3 mt-3 bg-light">
+    <div className="bg-light mt-3">
+        <Card>
+    <div className="container p-3">
       <div className="row">
         <div className="col-md-3">
           <div className="row">
@@ -126,8 +131,12 @@ const Posts = () => {
         </div>
       </div>
     </div>
+    </Card>
+    </div>
 
-    <div className="container p-3 mt-3 bg-light">
+    <div className="bg-light mt-3">
+        <Card>
+    <div className="container p-3">
       <div className="row">
         <div className="col-md-3">
           <div className="row">
@@ -192,7 +201,9 @@ const Posts = () => {
         </div>
       </div>
     </div>
-    </>
+    </Card>
+    </div>
+    </div>
   );
 };
 

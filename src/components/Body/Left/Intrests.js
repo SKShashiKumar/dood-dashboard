@@ -1,9 +1,12 @@
+import { Card } from "@mui/material";
+
 const Intrests = () => {
     return ( 
-        <div className="bg-light mt-2 pt-3 mb-3">
+        <div className="bg-light mt-2 mb-3">
+            <Card>
             <div className="container">
                 <div className="row">
-                    <div className="col">
+                    <div className="col pt-2">
                         <h5>Intrests</h5>
                     </div>
                 </div>
@@ -19,6 +22,7 @@ const Intrests = () => {
                     <h6 className="text-center bg-secondary text-white ml-1 p-1">news</h6>
                 </div>
             </div>
+            </Card>
         </div>
      );
 }

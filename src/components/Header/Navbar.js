@@ -14,6 +14,7 @@ import MoreIcon from "@mui/icons-material/MoreVert";
 import PublicIcon from "@mui/icons-material/Public";
 import PersonIcon from "@mui/icons-material/Person";
 
+
 export default function Navbar() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
@@ -78,24 +79,14 @@ export default function Navbar() {
       onClose={handleMobileMenuClose}
     >
       <MenuItem>
-        <IconButton
-          size="large"
-          aria-label="account of current user"
-          aria-controls="primary-search-account-menu"
-          aria-haspopup="true"
-          color="inherit"
-        >
+        <IconButton size="large" aria-haspopup="true" color="inherit">
           <MailIcon />
         </IconButton>
         <p>Mail</p>
       </MenuItem>
 
       <MenuItem>
-        <IconButton
-          size="large"
-          aria-label="show 3 new notifications"
-          color="inherit"
-        >
+        <IconButton size="large" color="inherit">
           <Badge badgeContent={3} color="error">
             <NotificationsIcon />
           </Badge>
@@ -125,6 +116,7 @@ export default function Navbar() {
   );
 
   return (
+
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="fixed">
         <Toolbar>
@@ -133,7 +125,7 @@ export default function Navbar() {
             edge="start"
             color="inherit"
             aria-label="open drawer"
-            sx={{ mr: 2 }}
+            sx={{ mr: 1 }}
           >
             <HomeIcon />
           </IconButton>
@@ -141,16 +133,14 @@ export default function Navbar() {
             variant="h6"
             noWrap
             component="div"
-            sx={{ display: { xs: "none", sm: "block" } }}
+            sx={{ display: { xs: "none", sm: "block", paddingRight : "20px" } }}
+
           >
-            LOGO
+            Dude
           </Typography>
 
-          <Box sx={{ flexGrow: 1 }} />
-
-          {/* <Box sx={{ display: { xs: "none", md: "flex" }} } className="mr-auto"> */}
-          <Box className="ml-auto">
-
+          {/* <Box sx={{ flexGrow: 1 }} /> */}
+          <Box sx={{ display: { xs: "none", md: "flex" } }}>
             <IconButton
               size="large"
               aria-label="show 3 new notifications"
@@ -183,6 +173,10 @@ export default function Navbar() {
                 <NotificationsIcon />
               </Badge>
             </IconButton>
+            </Box>
+          <Box sx={{ flexGrow: 1 }} />
+
+          <Box sx={{ display: { xs: "none", md: "flex" } }}>
             <IconButton
               size="large"
               edge="end"
