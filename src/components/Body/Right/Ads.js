@@ -7,7 +7,7 @@ const Ads = () => {
         <div className="container">
           <div className="row">
             <div className="col">
-              <h3 className="text-center p-3 ">ADS</h3>
+              <h3 className="text-center p-3">ADS</h3>
             </div>
           </div>
         </div>

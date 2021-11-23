@@ -1,0 +1,10 @@
+#addPost{
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btnPost{
+    background-color: black;
+}

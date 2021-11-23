@@ -42,6 +42,7 @@ export default function Navbar() {
   const menuId = "primary-search-account-menu";
   const renderMenu = (
     <Menu
+    color="info"
       anchorEl={anchorEl}
       anchorOrigin={{
         vertical: "top",
@@ -87,7 +88,7 @@ export default function Navbar() {
 
       <MenuItem>
         <IconButton size="large" color="inherit">
-          <Badge badgeContent={3} color="error">
+          <Badge badgeContent={3} color="success">
             <NotificationsIcon />
           </Badge>
         </IconButton>
@@ -118,7 +119,7 @@ export default function Navbar() {
   return (
 
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="fixed">
+      <AppBar position="fixed" color="info">
         <Toolbar>
           <IconButton
             size="large"
@@ -169,7 +170,7 @@ export default function Navbar() {
               aria-label="show 3 new notifications"
               color="inherit"
             >
-              <Badge badgeContent={3} color="error">
+              <Badge badgeContent={3} color="success">
                 <NotificationsIcon />
               </Badge>
             </IconButton>

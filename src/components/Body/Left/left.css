@@ -18,5 +18,50 @@
 }
 
 .bg-light-darkslate{
-    background-color: rgb(218, 213, 213);
+    background-color: rgb(223,229,232);
+    border: 0.1px solid rgb(202, 204, 206);
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.intrests{
+    color: white;
+    background-color: grey;
+    text-align: center;
+    margin: 0 3px 4px 3px;
+    padding: 2px 9px 0px 9px;
+    font-size: 13px;
+}
+
+.pingmsg{
+    background-color: rgb(223,229,232);
+    /* padding: 10px 10px 10px 10px; */
+}
+
+.hey{
+    padding: 10px 0px 0px 20px ;
+}
+
+/* .buttonENd{
+    justify-content: end;
+} */
+
+.PingContent{
+    padding: 10px 10px 20px 30px;
+}
+
+.closeButton{
+    padding: 5px 0px -10px 5px;
+    background-color: rgb(163, 158, 158);
+    text-align: center;
+    font-weight: bolder;
+}
+
+.closeButton:hover{
+    cursor: pointer;
+}
+
+.pp{
+    padding-top: 5px ;
 }

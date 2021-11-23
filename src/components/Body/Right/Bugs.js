@@ -7,7 +7,7 @@ const Bugs = () => {
       <Card>
         <div className="container p-3">
           <div className="row">
-            <div className="col-xs-10 col-sm-10 col-md-4 mx-auto">
+            <div className="col-xs-12 col-sm-12 col-md-12 text-center">
               <BugReportIcon fontSize="large" />
             </div>
           </div>

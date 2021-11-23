@@ -1,3 +1,10 @@
 .bg-cw{
     background-color: whitesmoke;
 }
+
+.margin-padding{
+    padding: 30px 10px 10px 100px;
+    max-width: 99vw;
+
+    /* padding-left: 8%; */
+}

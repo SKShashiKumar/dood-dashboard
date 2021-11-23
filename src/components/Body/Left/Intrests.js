@@ -6,20 +6,20 @@ const Intrests = () => {
             <Card>
             <div className="container">
                 <div className="row">
-                    <div className="col pt-2">
-                        <h5>Intrests</h5>
+                    <div className="col pt-3">
+                        <h6>Intrests</h6>
                     </div>
                 </div>
-                <div className="row ml-4 mb-2 pb-2">
-                    <h6 className="text-center bg-dark text-white ml-1 p-1">news</h6>
-                    <h6 className="text-center bg-secondary text-white ml-1 p-1">news</h6>
-                    <h6 className="text-center bg-secondary text-white ml-1 p-1">news</h6>
-                    <h6 className="text-center bg-secondary text-white ml-1 p-1">news</h6>
-                    <h6 className="text-center bg-secondary text-white ml-1 p-1">news</h6>
-                    <h6 className="text-center bg-secondary text-white ml-1 p-1">news</h6>
-                    <h6 className="text-center bg-secondary text-white ml-1 p-1">news</h6>
-                    <h6 className="text-center bg-secondary text-white ml-1 p-1">news</h6>
-                    <h6 className="text-center bg-secondary text-white ml-1 p-1">news</h6>
+                <div className="row ml-2 mb-2 pb-2">
+                    <p className="intrests bg-dark">News</p>
+                    <p className="intrests">W3Schools</p>
+                    <p className="intrests">Labels</p>
+                    <p className="intrests">Games</p>
+                    <p className="intrests">News</p>
+                    <p className="intrests">News</p>
+                    <p className="intrests">News</p>
+                    <p className="intrests">News</p>
+                    <p className="intrests">News</p>
                 </div>
             </div>
             </Card>

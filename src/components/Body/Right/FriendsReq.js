@@ -3,6 +3,9 @@ import Button from "@mui/material/Button";
 import CheckIcon from "@mui/icons-material/Check";
 import ClearIcon from "@mui/icons-material/Clear";
 import { Card } from "@mui/material";
+
+import './right.css'
+
 const FriendsReq = () => {
   return (
     <div className="bg-light mt-3">
@@ -14,12 +17,12 @@ const FriendsReq = () => {
           </div>
         </div>
         <div className="row p-2">
-          <div className="col-md-8 mx-auto">
+          <div className="col-md-12 align-items-center imgCenter">
             <img
               src="img/avatar6.png"
               alt="Friends"
-              width="100px"
-              height="100px"
+              width="90%"
+              height="90%"
             />
           </div>
         </div>
@@ -29,16 +32,15 @@ const FriendsReq = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-8 mx-auto">
-            <ButtonGroup>
-              <Button variant="contained" color="success">
-                {<CheckIcon />}
+          
+            <ButtonGroup className="col-md-12 btn-grp">
+              <Button variant="contained" color="success" fullWidth className="col">
+                {<CheckIcon  />}
               </Button>
-              <Button variant="contained" color="error">
+              <Button variant="contained" color="error" fullWidth  className="col" >
                 {<ClearIcon />}
               </Button>
             </ButtonGroup>
-          </div>
         </div>
       </div>
       </Card>

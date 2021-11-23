@@ -1,13 +1,18 @@
-import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import EditIcon from "@mui/icons-material/Edit";
 import { Card } from "@mui/material";
+import React,{useState} from 'react';
+import './center.css'
 const Addposts = () => {
+
+  const [addPost, setAddpost] = useState("Status: Feeling Blue");
+
+  
   return (
     <div className="bg-light">
       <Card>
-        <div className="container pt-3 pb-3 pl-2 pr-2 ">
+        <div className="container pt-3 pb-3 pl-3 pr-2 ">
           <div className="row">
             <div className="col-12">
               <Typography variant="body1" color="gray">
@@ -17,18 +22,16 @@ const Addposts = () => {
           </div>
           <div className="row mt-2">
             <div className="col-12  ">
-              <TextField
-                id="filled-standard"
-                value="Status: Feeling Blue"
-                variant="standard"
-                fullWidth
-                focused
+              <input
+                value={addPost}
+                onChange={e => setAddpost(e.target.value)} 
+                id = 'addPost'
               />
             </div>
           </div>
           <div className="row mt-3">
             <div className="col-12">
-              <Button startIcon={<EditIcon />} variant="contained" color="grey">
+              <Button startIcon={<EditIcon />} variant="contained" className="btnPost" color="info">
                 Post
               </Button>
             </div>
