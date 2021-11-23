@@ -2,7 +2,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <>
-    <div>
+    <div className="container-fluid">
         <div className="row">
             <div className="col main-footer">
                 <h4 className="text-left">Footer</h4>

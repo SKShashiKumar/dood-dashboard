@@ -12,7 +12,7 @@ const Addposts = () => {
   return (
     <div className="bg-light">
       <Card>
-        <div className="container pt-3 pb-3 pl-3 pr-2 ">
+        <div className="container-fluid pt-3 pb-3 pl-3 pr-2 ">
           <div className="row">
             <div className="col-12">
               <Typography variant="body1" color="gray">

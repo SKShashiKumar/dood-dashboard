@@ -10,8 +10,8 @@ const PingMsg = () => {
   return (
     <>
       {Show ? (
-        <div className="pingmsg ">
-          <div className="container">
+        <div className="pingmsg">
+          <div className="container-fluid">
             <div className="row">
               <div className="col-xs-10 col-sm-10 col-md-10 col-lg-10 ">
                 <h5 className="hey">Hey</h5>

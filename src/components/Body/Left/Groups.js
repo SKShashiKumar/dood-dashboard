@@ -8,7 +8,7 @@ const Groups = () => {
   return (
     <div className="mt-2 p-2">
       <Card>
-        <div className="container bg-darkslate text-white">
+        <div className="container-fluid bg-darkslate text-white">
           <div className="row p-2 GrpHvr">
             <div className="col-2">
               <GroupWorkIcon fontSize="small" />

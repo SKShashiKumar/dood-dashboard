@@ -14,7 +14,7 @@ const Posts = () => {
   return (
     <div className="bg-light mt-3">
       <Card>
-        <div className="container p-3">
+        <div className="container-fluid p-3">
           <div className="row">
             <div className="col-sm-4 col-md-4 col-lg-4">
               <div className="row">
@@ -97,7 +97,7 @@ const Posts = () => {
 
       <div className="bg-light mt-3">
         <Card>
-          <div className="container p-3">
+          <div className="container-fluid p-3">
             <div className="row">
             <div className="col-sm-4 col-md-4 col-lg-4">
                 <div className="row">
@@ -164,7 +164,7 @@ const Posts = () => {
 
       <div className="bg-light mt-3">
         <Card>
-          <div className="container p-3">
+          <div className="container-fluid p-3">
             <div className="row">
             <div className="col-sm-4 col-md-4 col-lg-4">
                 <div className="row">

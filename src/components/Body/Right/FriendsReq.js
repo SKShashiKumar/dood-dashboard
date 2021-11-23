@@ -10,7 +10,7 @@ const FriendsReq = () => {
   return (
     <div className="bg-light mt-3">
         <Card>
-      <div className="container p-3">
+      <div className="container-fluid p-3">
         <div className="row">
           <div className="col-md-12">
             <h5 className="text-center">Friend Request</h5>
